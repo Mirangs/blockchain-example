@@ -1,0 +1,16 @@
+{
+  "port": 3000,
+  "log4js": {
+    "appenders": {
+      "app": {
+        "type": "stdout"
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": ["app"],
+        "level": "debug"
+      }
+    }
+  }
+}
